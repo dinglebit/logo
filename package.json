@@ -1,0 +1,23 @@
+{
+  "name": "dinglebit-logo",
+  "version": "1.0.0",
+  "description": "Dinglebit logos.",
+  "main": "index.js",
+  "dependencies": {
+    "svgexport": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinglebit/logo.git"
+  },
+  "author": "Joshua Marsh <joshua@themarshians.com> (icub3d)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dinglebit/logo/issues"
+  },
+  "homepage": "https://github.com/dinglebit/logo#readme"
+}
