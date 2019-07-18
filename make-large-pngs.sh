@@ -19,6 +19,6 @@ for i in $(ls palettes); do
     mkdir -p dist/$i/images
     css="`fgrep -e default-primary-color -e accent-color palettes/$i/palette.css | 
           sed -e 's/.default-primary-color/.dinglebit-logo-pants/g' -e 's/.accent-color/.dinglebit-logo-dingleberry/g' -e 's/background/fill/g'`"
-    nodejs node_modules/svgexport/bin/index.js dinglebit.svg dist/$i/images/dinglebit.png "$css"
+    node node_modules/svgexport/bin/index.js dinglebit.svg dist/$i/images/dinglebit.png "$css"
 done
 
